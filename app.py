@@ -31,7 +31,5 @@ if __name__ == '__main__':
     valid_keys = client.get_multi(keys)
     print('{} percent of keys still matched'.format(((len(valid_keys) / float(len(keys))) * 100)))
 
-    # todo: down a specific server which holds a specific key to ensure the code coverage for multi
-
 
 

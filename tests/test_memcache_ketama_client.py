@@ -132,4 +132,3 @@ class MemcacheClientTestCase(TestCase):
         random_key = ''.join(random.choice(characters) for _ in range(length))
         return random_key
 
-    # todo: down server
